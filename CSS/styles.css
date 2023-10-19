@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.first-box {
+    width: 307px;
+    height: 500px;
+    background-color: #E28625;
+    border-radius: 8px 0 0 8px;
+}
+
+.icon,
+.icon-2,
+.icon-3 {
+    margin: 48 0 0 48;
+}
+
+.header,
+.suvs,
+.header3 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 35 0 0 48;
+}
+
+.sub-text,
+.sub-text2,
+.subtext-3 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: white;
+    word-wrap: break-word;
+    margin: 25 0 0 48;
+}
+
+.button {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #E28625;
+    border-radius: 25px;
+    line-height: 15px;
+    width: 146px;
+    height: 48px;
+    margin: 83 0 48 48;
+    border: none;
+    cursor: pointer;
+}
+
+.second-box {
+    width: 307px;
+    height: 500px;
+    background-color: #006971;
+}
+
+
+.btn2 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #006971;
+    border-radius: 25px;
+    line-height: 15px;
+    width: 146px;
+    height: 48px;
+    margin: 83 0 48 48;
+    border: none;
+    cursor: pointer;
+}
+
+.third-box {
+    width: 307px;
+    height: 500px;
+    background-color: #004140;
+    border-radius: 0 8px 8px 0;
+}
+
+.btn3 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #004140;
+    border-radius: 25px;
+    line-height: 15px;
+    width: 146px;
+    height: 48px;
+    margin: 83 0 48 48;
+    border: none;
+    cursor: pointer;
+}
