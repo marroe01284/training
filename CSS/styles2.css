@@ -1,0 +1,148 @@
+ /* COLORS */
+ :root {
+    --sedans-color: #E28625;
+    --suvs-color: #006971;
+    --luxury-color:#004140;
+ }
+
+ * {
+    box-sizing: border-box;
+ }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+ ul {
+    background-color: aquamarine;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
+ .cards-contaner {
+    display: flex;
+    flex-direction: column;
+list-style-type: none;
+margin: 0;
+padding: 0;
+ }
+ .card {
+    width: 307;
+    height: 500;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 48px;
+ }
+ .card:nth-child(1){
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+ }
+
+ .card:nth-last-child(1) {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+ }
+ .svg-container {
+    margin-bottom: 35px;
+ }
+
+ h2 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 25px 0;
+
+ }
+
+ p {
+    color: white;
+    opacity: 70%;
+    line-height: 25;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 0 25px 0;
+    font-family: 'Lexend Deca', sans-serif;
+
+ }
+ .card button {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: fit-content;
+    min-width: 146px;
+    line-height: 25px;
+    border: 2px solid transparent;
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+ }
+
+ .card button:active {
+    color: white;
+    border-color: white;
+ }
+
+ .sedans-card {
+background-color: var(--sedans-color);
+ }
+
+.suvs-card {
+    background-color: var(--suvs-color);
+}
+
+.luxury-card {
+    background-color: var(--luxury-color);
+}
+.sedans-card button {
+color: var(--sedans-color);
+}
+.suvs-card button {
+    color: var(--suvs-color);
+}
+
+.luxury-card button {
+    color: var(--luxury-color);
+}
+ /* font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+ 
+ /* Small (sm) */
+ @media (min-width: 640px) {
+}
+/* Medium (md) */
+@media (min-width: 768px) {
+ 
+}
+/* Large (lg) */
+@media (min-width: 1024px) {
+body {
+   height: 100vh; 
+}
+.cards-contaner {
+    flex-direction: row;
+}
+.card:nth-child(1){
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+ }
+
+ .card:nth-last-child(1) {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+ }
+
+}
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+}
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
+}
